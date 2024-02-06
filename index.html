@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+
+    <div class="headerDiv">
+        <div class="bugetDiv">
+            <div>
+                <h1>Budget</h1>
+                <input type="number" placeholder="Add your budget" id="yourbudget">
+                <p class="errorMsg">Add minimmum 100 Rupee</p>
+                <button id="budgetBtn">Add budget</button>
+            </div>
+        </div>
+
+        <div class="expenceDiv">
+            <h1>Expences</h1>
+            <div>
+                <input type="text" placeholder="Product" id="expenseProduct">
+            </div>
+            <div>
+                <input type="number" placeholder="Cost" id="expenseCost">
+            </div>
+            <button class="btn">Check</button>
+
+        </div>
+    </div>
+
+    <div class="chkExpenseBody">
+        <div class="chkExpense">
+            <div class="total">
+                <h3>Total Budget</h3>
+                <p id="totalBudget">0</p>
+            </div>
+            <div class="total">
+                <h3>Expenses</h3>
+                <p id="totalExpense">0</p>
+            </div>
+            <div class="total">
+                <h3>Balance</h3>
+                <p id="totalBalance">0</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="ExpenseListBody">
+        <div class="ExpenseList">
+            <div class="heading">
+                <h1>Expense List</h1>
+            </div>
+            <!-- <div class="list">
+                <div class="list-item">
+                    <p>Tv </p>
+                </div>
+                <div class="list-item">
+                    <p>3000</p>
+                </div>
+                <div class="list-item">
+                    <div class="btn-div">
+                        <button>edi</button>
+                        <button>del</button>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
+    </div>
+
+    <!-- <script type="module">
+
+    </script> -->
+    <script src="app.js"></script>
+</body>
+
+</html>
